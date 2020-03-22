@@ -37,6 +37,8 @@ Edit this document to include your answers after each question. Make sure to lea
 4. Describe the four rules of the 'this' keyword.
 
 5. Why do we need super() in an extended class?
+The super function binds the extended function to the parent class allowing the super function to inherit from the original
+class.
 
 ## Project Set up
 
