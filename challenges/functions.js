@@ -39,6 +39,19 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation:
 
+//I'd like to explain this in two ways:
+/*
+1. While the internal variable is inside the local scope of myFunction,
+nestedFunction has access to it because it is outside of nestedFunction's
+local scope.
+
+2. If closures are compared to parent-child relationship with myFunction being
+the parent, it would make sense that nestedFunction is able to inherit some of
+its parent's genes (i.e internal variable). However, the parent (myFunction)
+is not able to inherit genes from its child (nestedFunction).
+
+}
+*/
 
 const external = "I'm outside the function";
 
