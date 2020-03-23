@@ -38,9 +38,18 @@ A function is a piece of code that performs one task and does it well. A method 
 
 3. What is closure?
 
+A closure is a function within a funtion that is able to access the parent function's local scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+The four rules:
+ 1. Implicit binding - when a function is called by a preceding dot, the value of `this` is the object left of the dot.
+ 2. Global binding - the value of `this` will be the window/comsole object.
+ 3. New binding - when a constructor function is used, the value of `this` is the specific instance of the object created.
+ 4. Explicit binding - the value of `this` is explicitly defined when `.call()`, `.apply()`, `.bind()`is used.
+
 5. Why do we need super() in an extended class?
+
 The super function binds the extended function to the parent class allowing the super function to inherit from the original
 class.
 
