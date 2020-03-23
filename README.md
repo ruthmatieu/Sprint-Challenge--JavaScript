@@ -43,10 +43,10 @@ A closure is a function within a funtion that is able to access the parent funct
 4. Describe the four rules of the 'this' keyword.
 
 The four rules:
- 1. Implicit binding - when a function is called by a preceding dot, the value of `this` is the object left of the dot.
- 2. Global binding - the value of `this` will be the window/comsole object.
- 3. New binding - when a constructor function is used, the value of `this` is the specific instance of the object created.
- 4. Explicit binding - the value of `this` is explicitly defined when `.call()`, `.apply()`, `.bind()`is used.
+ * Implicit binding - when a function is called by a preceding dot, the value of `this` is the object left of the dot.
+ * Global binding - the value of `this` will be the window/comsole object.
+ * New binding - when a constructor function is used, the value of `this` is the specific instance of the object created.
+ * Explicit binding - the value of `this` is explicitly defined when `.call()`, `.apply()`, `.bind()`is used.
 
 5. Why do we need super() in an extended class?
 
